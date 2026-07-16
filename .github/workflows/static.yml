@@ -50,15 +50,10 @@ jobs:
       - name: Build CSS
         run: pnpm build:css
 
-      - name: Upload assets folder
+      - name: Upload src folder
         uses: actions/upload-pages-artifact@v5
         with:
-          path: assets/
-
-      - name: Upload index.html file
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: index.html
+          path: src/
 
       - name: Deploy to GitHub Pages
         id: deployment
