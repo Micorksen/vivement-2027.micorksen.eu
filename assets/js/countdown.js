@@ -9,8 +9,8 @@ const secondElectionRoundMinutes = document.querySelector("#second-election-roun
 const secondElectionRoundSeconds = document.querySelector("#second-election-round-seconds");
 
 // Basé sur https://www.service-public.gouv.fr/particuliers/vosdroits/F1939.
-const firstElectionRoundDate = new Date("2027-04-18T20:00:00Z");
-const secondElectionRoundDate = new Date("2027-05-02T20:00:00Z");
+const firstElectionRoundDate = new Date("2027-04-18T18:00:00Z");
+const secondElectionRoundDate = new Date("2027-05-02T18:00:00Z");
 
 // Fonction codée à l'aide d'IA.
 const difference = (a, b) => {
