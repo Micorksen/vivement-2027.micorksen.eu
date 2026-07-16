@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Combien de temps avant les élections présidentielles de 2027 ?",
   "scripts": {
-    "build:css": "tailwindcss -i ./assets/css/style.css -o ./assets/css/style.min.css --minify",
-    "watch:css": "tailwindcss -i ./assets/css/style.css -o ./assets/css/style.min.css --watch"
+    "build:css": "tailwindcss -i ./src/assets/css/style.css -o ./src/assets/css/style.min.css --minify",
+    "watch:css": "tailwindcss -i ./src/assets/css/style.css -o ./src/assets/css/style.min.css --watch"
   },
   "keywords": [
     "france",
