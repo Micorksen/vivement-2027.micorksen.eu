@@ -144,4 +144,4 @@ vite.config.ts.timestamp-*
 
 .idea/
 
-assets/css/style.min.css
+src/assets/css/style.min.css
