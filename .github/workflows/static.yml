@@ -53,7 +53,7 @@ jobs:
       - name: Upload assets folder
         uses: actions/upload-pages-artifact@v5
         with:
-          path: assets/**
+          path: assets/
 
       - name: Upload index.html file
         uses: actions/upload-pages-artifact@v5
